@@ -266,3 +266,98 @@ main{
 .virtual-assistant img{
     cursor: pointer;
 }
+
+
+@media (max-width: 768px) {
+    nav {
+        padding: 1rem;
+    }
+    
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    .right-nav {
+        gap: 1rem;
+    }
+    
+    .select-heading {
+        padding: 0.5rem;
+    }
+    
+    .options {
+        width: 180px;
+    }
+    
+    .chat-box {
+        padding: 1.5rem;
+        margin: 1rem auto;
+    }
+    
+    .chat-container {
+        height: 300px;
+    }
+    
+    .bgtext {
+        font-size: 12vw;
+    }
+    
+    .virtual-assistant {
+        bottom: 1rem;
+        right: 1rem;
+    }
+    
+    .virtual-assistant img {
+        width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    .right-nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .select-box {
+        width: 70%;
+    }
+    
+    .options {
+        width: 100%;
+    }
+    
+    .chat-box {
+        padding: 1rem;
+    }
+    
+    .chat-box .h1 {
+        font-size: 1.2rem;
+    }
+    
+    .input-area input {
+        padding: 0.7rem;
+    }
+    
+    .input-area button {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .bgtext {
+        font-size: 14vw;
+    }
+    
+    .speak-page img {
+        width: 150px;
+    }
+    
+    #voice {
+        width: 150px;
+    }
+}
